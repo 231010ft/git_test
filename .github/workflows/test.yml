@@ -7,4 +7,4 @@ jobs:
   check-bats-version:
     runs-on: windows-latest
     steps:
-      - run: echo "Hello World"
+      - run: echo "Hello GitHub Actions!"
