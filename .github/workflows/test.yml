@@ -1,6 +1,9 @@
 name: learn-github-actions
-on: [push]
-  jobs:
+on: 
+  push:
+    branches:
+      - main
+jobs:
   check-bats-version:
     runs-on: windows-latest/windows-2022
   steps:
